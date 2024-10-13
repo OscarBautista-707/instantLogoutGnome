@@ -1,6 +1,7 @@
 #!/BIN/BASH
 
 ## Script by Oscar Bautista
+## This script is under the MIT Liscence
 
 ## Disable current logout
 gsettings set org.gnome.settings-daemon.plugins.media-keys logout [] &&
@@ -18,4 +19,4 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ binding '<Control><Alt>Delete' &&
 
 ## Success message
-echo "Success! Ctrl+Alt+Delete will now instantly logout. Script by Oscar Bautista"
+echo "Success! Ctrl+Alt+Delete will now instantly logout. Script by Oscar Bautista. Released under MIT Liscence"
